@@ -4,7 +4,7 @@ import scala.io.Source
 
 val part1 = {
 	Source
-		.fromFile("../day1/input.txt")
+		.fromFile("../inputs/day1/input.txt")
 		.getLines
 		.map { line =>
 			val digits = line.collect {
@@ -21,7 +21,7 @@ println(s"part 1: sum of calibration values = $part1")
 
 val part2 = {
 	Source
-		.fromFile("../day1/input.txt")
+		.fromFile("../inputs/day1/input.txt")
 		.getLines
 		.map { line =>
 			val digits = {

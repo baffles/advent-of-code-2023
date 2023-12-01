@@ -2,7 +2,7 @@ use std::fs;
 
 pub fn part1() {
 	let calibration_values = 
-		fs::read_to_string("day1/input.txt")
+		fs::read_to_string("../inputs/day1/input.txt")
 			.expect("Should have been able to read the file")
 			.lines()
 			.map(|line| {
@@ -28,7 +28,7 @@ pub fn part1() {
 
 pub fn part2() {
 	let calibration_values = 
-		fs::read_to_string("day1/input.txt")
+		fs::read_to_string("../inputs/day1/input.txt")
 			.expect("Should have been able to read the file")
 			.lines()
 			.map(|line| {
